@@ -1,7 +1,7 @@
 # INSIDE OUT LARAVEL PROJECT
 
 >[!IMPORTANT]
->To learn how to install and also to know how we did this project, it's very important that you read every part of this readme. Thank you for your patience and have a good read.
+>To learn how to install and also to know how I did this project, it's very important that you read every part of this readme. Thank you for your patience and have a good read.
 ***
 
 ## :bulb: Project description
