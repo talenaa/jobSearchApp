@@ -10,7 +10,21 @@
 
 ## Requirements I need to achieve in this project:
 
+- We must display on the screen all our applied offers with their status (Blade).
+  
+- There must be a status position that is "In Progress" or "Completed".
 
+- We must view all our offers applied by Endpoints.
+
+- We must be able to delete, insert, modify and view all the entrys through Endpoints.
+
+- We have to be able to watch the show on Endpoints.
+
+- We have to be able to see the show (Blade).
+
+- Date management 1 creation, 2 last modification.
+
+- 70% minimum test coverage.
 ***
 
 ## :eye_speech_bubble: Project overview
