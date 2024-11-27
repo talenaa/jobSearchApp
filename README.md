@@ -1,4 +1,4 @@
-# INSIDE OUT LARAVEL PROJECT
+# JOB SEARCH APP LARAVEL
 
 >[!IMPORTANT]
 >To learn how to install and also to know how I did this project, it's very important that you read every part of this readme. Thank you for your patience and have a good read.
