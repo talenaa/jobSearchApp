@@ -24,7 +24,6 @@ Take a look at how my project turned out.
 
 ## Project Diagrams (BBDD)
 
-![Screenshot 2024-11-21 at 15-31-48 InsideOutApp DrawSQL](https://github.com/user-attachments/assets/cadf42ea-6ec1-441a-8630-2a1aee43fffc)
 
 The diagram I did for my database in **DrawSQL**
 ***
