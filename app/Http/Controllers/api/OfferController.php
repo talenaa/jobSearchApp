@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Offer;
 
 class OfferController extends Controller
 {
@@ -45,7 +46,8 @@ class OfferController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $offers = Offer::find($id);
+        return response()->json($offer, 200);
     }
 
     /**
