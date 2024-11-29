@@ -8,7 +8,6 @@
                     <th scope="col">Date</th>
                     <th scope="col">Payment</th>
                     <th scope="col">Company</th>
-                    <th scope="col">Status</th>
                     <th scope="col">Applied</th>
                     <th scope="col">Workspace</th>
                 </tr>
