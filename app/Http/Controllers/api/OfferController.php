@@ -71,6 +71,7 @@ class OfferController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $offers = Offer::find($id);
+        $offers->delete();
     }
 }
