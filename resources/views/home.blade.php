@@ -5,6 +5,7 @@
         <table class="table">
             <thead>
                 <tr>
+                    <th scope="col">Date</th>
                     <th scope="col">Payment</th>
                     <th scope="col">Company</th>
                     <th scope="col">Status</th>
