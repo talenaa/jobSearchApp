@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="offersTable">
-        <table class="table">
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <th scope="col">Date</th>
