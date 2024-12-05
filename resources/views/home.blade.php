@@ -18,7 +18,6 @@
                 <tr>
                     <td>{{$offer->Payment}}</td>
                     <td>{{$offer->Company}}</td>
-                    <td>{{$offer->Status}}</td>
                     <td>{{$offer->Applied}}</td>
                     <td>{{$offer->Workspace}}</td>
                 </tr>
