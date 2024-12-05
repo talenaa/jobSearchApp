@@ -32,10 +32,10 @@ class OfferController extends Controller
     public function store(Request $request)
     {
         $offers = Offer::create([
-            'Payment' => $request->Company,
-            'Company' => $request->Payment,
-            'Applied' => $request->Applied,
-            'Workspace' =>$request->Workspace
+            'payment' => $request->payment,
+            'company' => $request->company,
+            'applied' => $request->applied,
+            'workspace' =>$request->workspace,
         ]);
 
         $offer->save();
