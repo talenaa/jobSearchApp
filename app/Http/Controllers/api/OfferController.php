@@ -36,6 +36,7 @@ class OfferController extends Controller
             'company' => $request->company,
             'applied' => $request->applied,
             'workspace' =>$request->workspace,
+            'journey' =>$request->journey,
         ]);
 
         $offer->save();
