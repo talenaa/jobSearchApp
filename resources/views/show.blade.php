@@ -2,5 +2,5 @@
 @section('content')
 
     <div class="returnButtonContainer">
-        <a href="{{ route('home') }}" class="returnButton"></a>
+        <a href="{{ route('home') }}" class="returnButton">⬅</a>
     </div>
