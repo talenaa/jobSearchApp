@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Http\Controllers\Controller;
 use App\Models\Offer;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+
 
 
 class OfferController extends Controller
@@ -31,11 +32,12 @@ class OfferController extends Controller
      */
     public function store(Request $request)
     {
-        $offers = Offer::create([
-            'Payment' => $request->Company,
-            'Company' => $request->Payment,
-            'Applied' => $request->Applied,
-            'Workspace' =>$request->Workspace
+        $offer = Offer::create([
+            'payment' => $request->payment,
+            'company' => $request->company,
+            'applied' => $request->applied,
+            'workspace' => $request->workspace,
+            'journey' => $request->journey,
         ]);
 
         $offer->save();
@@ -47,7 +49,7 @@ class OfferController extends Controller
      */
     public function show(string $id)
     {
-        $offers = Offer::find($id);
+        $offer = Offer::find($id);
         return response()->json($offer, 200);
     }
 
@@ -64,7 +66,18 @@ class OfferController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $offer = Offer::find($id);
+
+        $offer->update([
+            'payment' => $request->payment,
+            'company' => $request->company,
+            'applied' => $request->applied,
+            'workspace' => $request->workspace,
+            'journey' => $request->journey,
+        ]);
+        $offer->save();
+
+        return response()->json($offer, 200);
     }
 
     /**
@@ -72,7 +85,7 @@ class OfferController extends Controller
      */
     public function destroy(string $id)
     {
-        $offers = Offer::find($id);
-        $offers->delete();
+        $offer = Offer::find($id);
+        $offer->delete();
     }
 }
