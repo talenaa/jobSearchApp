@@ -10,6 +10,7 @@
                     <th scope="col">Company</th>
                     <th scope="col">Applied</th>
                     <th scope="col">Workspace</th>
+                    <th scope="col">Journey</th>
                 </tr>
             </thead>
 
@@ -20,6 +21,7 @@
                     <td>{{$offer->Company}}</td>
                     <td>{{$offer->Applied}}</td>
                     <td>{{$offer->Workspace}}</td>
+                    <td>{{$offer->Journey}}</td>
                 </tr>
             </tbody>
         </table>
