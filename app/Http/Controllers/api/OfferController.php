@@ -48,7 +48,7 @@ class OfferController extends Controller
      */
     public function show(string $id)
     {
-        $offers = Offer::find($id);
+        $offer = Offer::find($id);
         return response()->json($offer, 200);
     }
 
@@ -84,7 +84,7 @@ class OfferController extends Controller
      */
     public function destroy(string $id)
     {
-        $offers = Offer::find($id);
-        $offers->delete();
+        $offer = Offer::find($id);
+        $offer->delete();
     }
 }
