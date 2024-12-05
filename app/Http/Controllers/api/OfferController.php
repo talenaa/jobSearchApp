@@ -68,10 +68,11 @@ class OfferController extends Controller
         $offer = Offer::find($id);
 
         $offer->update([
-            'title' => $request->title,
+            'payment' => $request->payment,
             'company' => $request->company,
-            'url' => $request->url,
-            'status' => $request->status,
+            'applied' => $request->applied,
+            'workspace' => $request->workspace,
+            'journey' => $request->journey,
         ]);
         $offer->save();
 
