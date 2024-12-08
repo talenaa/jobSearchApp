@@ -42,6 +42,26 @@ Take a look at how my project turned out.
 The diagram I did for my database in **DrawSQL**
 ***
 
+## Installation requirements
+
+Before you start to read how to install the project you'll need these requirements:
+>[!NOTE]
+>If you can't install xampp, look for any other local server that supports **MySQL** and **PHP**
+***
+
+1. XAMPP
+
+2. Operating System terminal
+
+3. Install Composer
+
+4. Install NPM in Node.js
+
+5. Xdebug (for the tests coverage)
+
+6. Postman
+***
+
 ## :scroll: Installation
 
 > [!IMPORTANT]
