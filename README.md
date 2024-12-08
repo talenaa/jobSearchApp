@@ -8,7 +8,7 @@
 
 ***
 
-## Requirements I need to achieve in this project:
+## Requirements to achieve in this project:
 
 - We must display on the screen all our applied offers with their status (Blade).
   
