@@ -38,4 +38,29 @@ class OfferTest extends TestCase
         $this->assertDatabaseCount('offers', 9);
     }
 
+    public function test_CheckIfCanCreateAnOffer()
+    { 
+        
+        $response = $this->post('/api/offers', [
+
+            'title' => 'test',
+            'enterprise' => 'eifjoa',
+            'description' => 'jfheihija',
+            'workspace' => 'aaaaa',
+            'status' => 0,
+        ]);
+
+        $response = $this->get('/api/offers');
+
+        $response->assertStatus(200)->assertJsonFragment([
+
+            'title' => 'test',
+            'enterprise' => 'eifjoa',
+            'description' => 'jfheihija',
+            'workspace' => 'aaaaa',
+            'status' => 0,
+        ]);
+    }
+
+
 }
