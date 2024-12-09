@@ -75,4 +75,28 @@ class FeedbackTest extends TestCase
             'news' => 'asldasdas',
         ]);
     }
+
+    public function test_CheckIfCanUpdateAComment()
+    {
+        Offer::factory(10)->create();
+        Feedback::factory(1)->create([
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 1,
+        ]);
+        
+        $response = $this->put('/api/offers/1/news/1', 
+        [
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 1,
+        ]);
+
+        $response = $this->get('/api/offers/1/news/1');
+
+        $response->assertStatus(200)->assertJsonFragment([
+
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 1,
+        ]);
+    }
 }
+
