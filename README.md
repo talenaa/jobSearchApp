@@ -126,6 +126,8 @@ This is what you should see after doing the tests.
 ![Screenshot 2024-12-09 200840](https://github.com/user-attachments/assets/eb7875c3-91db-45ad-aa56-dc08e64532b4)
 
 These are all my tests passed. I tested the web, the API CRUD and the feedback CRUD
+***
+## Coverage
 
 To see the coverage you can use this command at the **VSC** terminal
 ```
