@@ -38,8 +38,11 @@ Take a look at how my project turned out.
 
 ## Project Diagrams (BBDD)
 
+![image](https://github.com/user-attachments/assets/b4eef6c7-3c8e-4cf5-8f21-576eb7b26f49)
 
-The diagram I did for my database in **DrawSQL**
+The diagram I did for my database in **DrawSQL**.
+
+As you can see both of the tables are interlinked, this one, with a **one to many** relantionship.
 ***
 
 ## Installation requirements
