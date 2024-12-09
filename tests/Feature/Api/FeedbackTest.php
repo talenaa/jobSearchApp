@@ -56,4 +56,23 @@ class FeedbackTest extends TestCase
         $response = $this->delete('/api/offers/1/news/1');
         $this->assertDatabaseCount('feedback', 0);
     }
+
+    public function test_CheckIfCanCreateAComment()
+    {
+        Offer::factory(1)->create();
+
+        $response = $this->post('/api/offers/1/news', [
+
+            'offer_id' => 1,
+            'news' => 'asldasdas',
+        ]);
+
+        $response = $this->get('/api/offers/1/news/1');
+
+        $response->assertStatus(200)->assertJsonFragment([
+
+            'offer_id' => 1,
+            'news' => 'asldasdas',
+        ]);
+    }
 }
