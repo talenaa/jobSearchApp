@@ -77,7 +77,7 @@ npm install
 
 3. Create a .env file copying everything inside the existing file .env.example and modify the following lines:
 * DB_CONNECTION=mysql
-* DB_DATABASE=job_tracker
+* DB_DATABASE=jobSearch
 
 4. Create a database in **MySQL**
 
