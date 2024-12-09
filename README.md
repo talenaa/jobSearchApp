@@ -115,12 +115,14 @@ You'll see an url that is going to take you to a website.
 > [!IMPORTANT]
 > It's important to test the project so we can check if it works correctly and to do that use this command in the **VSC** terminal:
 
-```php
- $ php artisan test
- ```
-(screenshot here)
-
+```
+php artisan test
+```
 This is what you should see after doing the tests.
+
+![Screenshot 2024-12-09 200840](https://github.com/user-attachments/assets/eb7875c3-91db-45ad-aa56-dc08e64532b4)
+
+These are all my tests passed. I tested the web, the API CRUD and the feedback CRUD
 ***
 
 ## Contact and information
