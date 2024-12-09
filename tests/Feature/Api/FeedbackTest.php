@@ -44,4 +44,16 @@ class FeedbackTest extends TestCase
 
         $response->assertStatus(200)->assertJsonFragment(['offer_id' => 1]);
     }
+
+    public function test_CheckIfCanDeleteAComment()
+    {
+        Offer::factory(10)->create();
+        Feedback::factory(1)->create([
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 1,
+        ]);
+        
+        $response = $this->delete('/api/offers/1/news/1');
+        $this->assertDatabaseCount('feedback', 0);
+    }
 }
