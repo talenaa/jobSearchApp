@@ -51,15 +51,13 @@ Before you start to read how to install the project you'll need these requiremen
 
 1. XAMPP
 
-2. Operating System terminal
+2. Install Composer
 
-3. Install Composer
+3. Install NPM in Node.js
 
-4. Install NPM in Node.js
+4. Xdebug (for the tests coverage)
 
-5. Xdebug (for the tests coverage)
-
-6. Postman
+5. Postman
 ***
 
 ## :scroll: Installation
@@ -80,6 +78,14 @@ npm install
 3. Create a .env file copying everything inside the existing file .env.example and modify the following lines:
 * DB_CONNECTION=mysql
 * DB_DATABASE=job_tracker
+
+4. Create a database in **MySQL**
+
+5. Now go to the VSC terminal and put the following command
+```
+php artisan migrate:fresh --seed
+```
+This command will generate all the tables.
 ***
 
 ## Project documentation
