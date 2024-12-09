@@ -17,11 +17,11 @@ class OfferFactory extends Factory
     public function definition(): array
     {
         return [
-            'payment' => $this->faker->creditCardNumber(),
-            'company' => $this->faker->company(),
-            'applied' => $this->faker->applied(),
-            'workspace' => $this->faker->workspace(),
-            'journey' => $this->faker->journey(),
+            'title' => $this->faker->company(),
+            'enterprise' => $this->faker->company(),
+            'description' => $this->faker->realText($maxNbChars= 200),
+            'workspace' => $this->faker->company(),
+            'status' => $this->faker->boolean(),
         ];
     }
 }

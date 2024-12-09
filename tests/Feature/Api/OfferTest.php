@@ -12,10 +12,10 @@ class OfferTest extends TestCase
     use RefreshDatabase;
 
     public function test_CheckIfCanReceiveAllOffersInJsonFile() {
-        $offer = Offer::factory(6)->create();
+        $offer = Offer::factory(5)->create();
         $response = $this->get(route('apihome'));
 
         $response->assertStatus(200)
-            ->assertJsonCount(6);
+            ->assertJsonCount(5);
     }
 }

@@ -14,7 +14,7 @@ class OfferController extends Controller
     {
         $offers = Offer::all();
 
-        return view('home', compact('offers'));
+        return view('index', compact('offers'));
     }
 
     /**
