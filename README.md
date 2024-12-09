@@ -86,6 +86,17 @@ npm install
 php artisan migrate:fresh --seed
 ```
 This command will generate all the tables.
+
+6. Open another terminal in **VSC** and put the following command
+```
+npm run dev
+```
+
+7. Open another terminal and run the server with this command
+```
+php artisan serve
+```
+You'll see an url that is going to take you to a website.
 ***
 
 ## Project documentation
