@@ -107,7 +107,7 @@ You'll see an url that is going to take you to a website.
 
 ## Project documentation
 
-<p align="center">My endpoints</p> 
+<p align="center">Endpoints</p> 
 
 (screenshots below)
 
@@ -121,20 +121,26 @@ You'll see an url that is going to take you to a website.
 ```
 php artisan test
 ```
-This is what you should see after doing the tests.
+This is what you should see after putting the command.
 
-![Screenshot 2024-12-09 200840](https://github.com/user-attachments/assets/eb7875c3-91db-45ad-aa56-dc08e64532b4)
+![Screenshot 2024-12-09 235045](https://github.com/user-attachments/assets/9941106d-1a9e-4a15-8944-fc515a4770de)
 
-These are all my tests passed. I tested the web, the API CRUD and the feedback CRUD
+These are all my tests passed. I tested the web, the API CRUD, the feedback CRUD, and the FeedbackModel.
 ***
+
 ## Coverage
 
 To see the coverage you can use this command at the **VSC** terminal
 ```
 php artisan test --coverage-html=coverage-report
 ```
+
+> [!IMPORTANT]
+> Everytime that you do new tests you need to put the command above in the **VSC** terminal, so it can update your coverage.
+***
+
 This will add a folder called "coverage-report", go to the folder, go to the index.html, and then open with live server. After that you should see this page:
-![image](https://github.com/user-attachments/assets/cb11c466-8c93-45ee-b3d1-5485161b84af)
+![image](https://github.com/user-attachments/assets/6b547ea6-c57a-489c-8557-36a6860115f0)
 ***
 
 ## Contact and information
