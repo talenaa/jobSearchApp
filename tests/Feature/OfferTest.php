@@ -18,4 +18,14 @@ class OfferTest extends TestCase
         $response->assertStatus(200)
                 ->assertViewIs('index');
     }
+
+    public function test_CheckIfshowIsWorking()
+    {
+        Offer::factory(1)->create();
+        
+        $response = $this->get('/offers/1');
+
+        $response->assertStatus(200);
+        
+    }
 }
