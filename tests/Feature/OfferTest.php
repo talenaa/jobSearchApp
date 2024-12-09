@@ -14,7 +14,7 @@ class OfferTest extends TestCase
     public function test_IndexIsWorking()
     {
         $this->withoutExceptionHandling();
-        $response = $this->get(route('index'));
+        $response = $this->get(route('home'));
         $response->assertStatus(200)
                 ->assertViewIs('index');
     }
