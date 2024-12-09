@@ -66,7 +66,7 @@ Before you start to read how to install the project you'll need these requiremen
 
 1. Clone this repository:
 ```
-   https://github.com/talenaa/jobSearchApp.git
+ https://github.com/talenaa/jobSearchApp.git
 ```
 
 2. Install **Composer** and **NPM**
