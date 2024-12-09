@@ -15,8 +15,7 @@ class OfferController extends Controller
      */
     public function index()
     {
-        $offers = Offer::all();
-        return response()->json($offers, 200);
+        return response()->json(Offer::all(), 200);
     }
 
     /**
@@ -33,11 +32,11 @@ class OfferController extends Controller
     public function store(Request $request)
     {
         $offer = Offer::create([
-            'payment' => $request->payment,
-            'company' => $request->company,
-            'applied' => $request->applied,
+            'title' => $request->title,
+            'enterprise' => $request->enterprise,
+            'description' => $request->description,
             'workspace' => $request->workspace,
-            'journey' => $request->journey,
+            'status' => $request->status,
         ]);
 
         $offer->save();
@@ -49,17 +48,16 @@ class OfferController extends Controller
      */
     public function show(string $id)
     {
-        $offer = Offer::find($id);
-        return response()->json($offer, 200);
+        return response()->json(Offer::find($id), 200);
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    /* public function edit(string $id)
     {
         //
-    }
+    } */
 
     /**
      * Update the specified resource in storage.
@@ -69,11 +67,11 @@ class OfferController extends Controller
         $offer = Offer::find($id);
 
         $offer->update([
-            'payment' => $request->payment,
-            'company' => $request->company,
-            'applied' => $request->applied,
+            'title' => $request->title,
+            'enterprise' => $request->enterprise,
+            'description' => $request->description,
             'workspace' => $request->workspace,
-            'journey' => $request->journey,
+            'status' => $request->status,
         ]);
         $offer->save();
 
@@ -85,7 +83,6 @@ class OfferController extends Controller
      */
     public function destroy(string $id)
     {
-        $offer = Offer::find($id);
-        $offer->delete();
+        Offer::find($id)->delete();
     }
 }
