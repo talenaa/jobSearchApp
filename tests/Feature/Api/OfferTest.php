@@ -30,4 +30,12 @@ class OfferTest extends TestCase
         ]);
     }
 
+    public function test_CheckIfCanDeleteAnOffer()
+    {
+        Offer::factory(10)->create();
+        
+        $response = $this->delete('/api/offers/1');
+        $this->assertDatabaseCount('offers', 9);
+    }
+
 }
