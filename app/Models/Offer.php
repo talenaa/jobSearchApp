@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Factories\HasFactories;
 
 
 class Offer extends Model
@@ -12,11 +11,15 @@ class Offer extends Model
     use HasFactory;
 
     protected $fillable = [
-        'payment',
-        'company',
-        'status',
-        'applied',
+        'title',
+        'enterprise',
+        'description',
         'workspace',
-        'journey',
+        'status',
     ];
+
+    public function feedback()
+    {
+        return $this->hasMany(Feedback::class);
+    }
 }
