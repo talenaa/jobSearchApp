@@ -11,7 +11,7 @@ class OfferTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_IndexIsWorking()
+    public function test_CheckIfIndexIsWorking()
     {
         $this->withoutExceptionHandling();
         $response = $this->get(route('home'));
