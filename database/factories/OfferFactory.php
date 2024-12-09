@@ -17,7 +17,7 @@ class OfferFactory extends Factory
     public function definition(): array
     {
         return [
-            'payment' => $this->faker->payment(),
+            'payment' => $this->faker->creditCardNumber(),
             'company' => $this->faker->company(),
             'applied' => $this->faker->applied(),
             'workspace' => $this->faker->workspace(),
