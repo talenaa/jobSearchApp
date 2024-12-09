@@ -31,4 +31,17 @@ class FeedbackTest extends TestCase
 
         $response->assertStatus(200)->assertJsonCount(1);
     }
+
+    public function test_CheckIfCanGetCommentsById()
+    {
+        Offer::factory(10)->create();
+        Feedback::factory(1)->create([
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 1,
+        ]);
+
+        $response = $this->get('/api/offers/1/news/1');
+
+        $response->assertStatus(200)->assertJsonFragment(['offer_id' => 1]);
+    }
 }
