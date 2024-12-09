@@ -62,5 +62,29 @@ class OfferTest extends TestCase
         ]);
     }
 
+    public function test_CheckIfCanUpdateAnOffer()
+    {
+        Offer::factory(10)->create();
+        
+        $response = $this->put('/api/offers/1',
+        [
+            'title' => 'test',
+            'enterprise' => 'asldasdas',
+            'description' => 'asdasdasd',
+            'workspace' => 'aaaaa',
+            'status' => 0,
+        ]);
+
+        $response = $this->get('/api/offers/1');
+
+        $response->assertStatus(200)->assertJsonFragment([
+
+            'title' => 'test',
+            'enterprise' => 'asldasdas',
+            'description' => 'asdasdasd',
+            'workspace' => 'aaaaa',
+            'status' => 0,
+        ]);
+    }
 
 }
