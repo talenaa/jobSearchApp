@@ -97,6 +97,9 @@ npm run dev
 php artisan serve
 ```
 You'll see an url that is going to take you to a website.
+
+>[!IMPORTANT]
+>Be sure that your running npm and the server in **DIFFERENT** terminals, **DON'T** close these two terminals and **DON'T** use other commands in these two terminals. 
 ***
 
 ## Project documentation
