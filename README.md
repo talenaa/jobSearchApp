@@ -141,6 +141,8 @@ http://127.0.0.1:8000/api/offers/id
 ```
 ***
 
+<p align="center">Endpoints (Feedback table)</p>
+
 ## :white_check_mark: Tests
 
 > [!IMPORTANT]
@@ -149,11 +151,14 @@ http://127.0.0.1:8000/api/offers/id
 ```
 php artisan test
 ```
-This is what you should see after putting the command.
+<p align="center">This is what you should see after putting the command.</p>
 
-![Screenshot 2024-12-09 235045](https://github.com/user-attachments/assets/9941106d-1a9e-4a15-8944-fc515a4770de)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/08843ba7-899b-4c39-8799-03c7a35ab905" alt="tests screenshot" width="800"/>
+</p>
 
-These are all my tests passed. I tested the web, the API CRUD, the feedback CRUD, and the FeedbackModel.
+<p align="center">These are all my tests passed. I tested the web, the API CRUD, the feedback CRUD, and the FeedbackModel.</p>
+
 ***
 
 ## Coverage
