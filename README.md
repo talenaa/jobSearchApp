@@ -173,6 +173,7 @@ php artisan test --coverage-html=coverage-report
 ***
 
 This will add a folder called "coverage-report", go to the folder, go to the index.html, and then open with live server. After that you should see this page:
+
 ![image](https://github.com/user-attachments/assets/6b547ea6-c57a-489c-8557-36a6860115f0)
 ***
 
