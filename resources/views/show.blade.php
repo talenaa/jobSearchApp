@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="backBtnContainer">
+        <a href="{{ route('home') }}" class="backBtn">⬅️</a>
+    </div>
         <div class="offer">
             <div class="offerTime">
                 <table class="table">
