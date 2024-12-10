@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="backBtnContainer">
-        <a href="{{ route('create') }}" class="backBtn">🆕Add new Offer</a>
+        <a href="{{ route('create') }}" class="backBtn">Add Offer</a>
     </div>
         <div class="offerTable">
             <table class="table table-bordered">

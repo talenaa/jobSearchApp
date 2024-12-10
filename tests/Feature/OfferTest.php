@@ -54,7 +54,7 @@ class OfferTest extends TestCase
             'status' => true
         ]);
 
-        $response = $this->get('/show/2');
+        $response = $this->get('/show/1');
 
         $response->assertStatus(200)
             ->assertViewIs('show');

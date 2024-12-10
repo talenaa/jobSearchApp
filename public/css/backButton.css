@@ -4,11 +4,13 @@
     align-items: center;
     height: 30px;
     margin-top: 20px;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .backBtn {
-    font-size: 24px;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 8px;
     text-decoration: none;
     background-color: #182634;
     color: #1f6295;

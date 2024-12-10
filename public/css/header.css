@@ -17,4 +17,9 @@ header img{
 
 .title{
    margin-top: 20px;
+   filter: drop-shadow(3px 3px 3px #253754) drop-shadow(0px 0px 0px #2a2e3a)
+    drop-shadow(-3px -3px 3px #223054);
+
+    border-radius: 10px;
+    transition: box-shadow 0.1s;
 }
