@@ -2,9 +2,8 @@
 
 @section('content')
         <div class="offer">
-            <h2 class="titleShow">Entries</h2>
             <div class="offerTime">
-                <table class="table table-bordered">
+                <table class="table">
                     <tr>
                         <th scope="col">Comments</th>
                         <th scope="col">Created</th>
