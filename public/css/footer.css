@@ -1,3 +1,16 @@
 footer{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
     background-color: #2a2e3a;
+    text-align: center;
+    font-family: monospace;
+    font-size: 19px;
+    color: #99bdd8;
+}
+footer img{
+    width: 42px;
+    margin-top: 7px;
 }
