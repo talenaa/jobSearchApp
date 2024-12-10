@@ -6,6 +6,13 @@
 
 ## :bulb: Project description
 
+This project was made with the idea to store and organize the employments offers that we receive and apply.
+
+With two tables interlinked you can edit or add a new offer that you received, but you can also do that through endpoints.
+
+The feedback table is the one that you can add comments, for example, if you made progress with an offer you can comment that as your progress and it will update.
+In the two forms we have the option to create and update.
+
 ***
 
 ## Requirements to achieve in this project:
