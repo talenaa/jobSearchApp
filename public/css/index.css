@@ -37,3 +37,7 @@ body{
     color: #99bdd8;
     font-weight: bold;
 }
+
+.comments{
+    text-decoration: none;
+}
