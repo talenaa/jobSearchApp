@@ -6,12 +6,12 @@
     </div>
 
     <div class="tableOffer">
-        <h2 class="form-title">Add New Offer</h2>
-        <form action="{{ route('store') }}" method="POST" class="form-container">
+        <h2 class="form-title">Edit Offer</h2>
+        <form action="{{ route('update', $offer->id) }}" method="POST" class="form-container">
 
-           @csrf
+        @csrf
 
-            <div class="form-group">
+        <div class="form-group">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" name="title" id="title" class="form-input" required>
             </div>
@@ -40,8 +40,9 @@
             </div>
 
             <div class="form-actions">
-                <button type="submit" class="form-button">Add Offer</button>
+                <button type="submit" class="form-button">Edit Offer</button>
             </div>
+
         </form>
     </div>
 @endsection
