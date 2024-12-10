@@ -107,10 +107,38 @@ You'll see an url that is going to take you to a website.
 
 ## Project documentation
 
-<p align="center">Endpoints</p> 
+>[!NOTE]
+>Since we have two interlinked tables, each one of them has their own CRUD, this firsts endpoints are from the offers table.
+>
+>In the offers table we have: title, enterprise, description, workspace, status and two timestamps that are created_at and updated_at.
+***
 
-(screenshots below)
+<p align="center">Endpoints (Offers table)</p> 
 
+GET all ids
+```
+http://127.0.0.1:8000/api/offers
+```
+
+GET an especific id
+```
+http://127.0.0.1:8000/api/offers/id
+```
+
+DELETE by id
+```
+http://127.0.0.1:8000/api/offers/id
+```
+
+POST update a new offer
+```
+http://127.0.0.1:8000/api/offers
+```
+
+PUT update an existing offer by id
+```
+http://127.0.0.1:8000/api/offers/id
+```
 ***
 
 ## :white_check_mark: Tests
