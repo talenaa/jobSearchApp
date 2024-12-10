@@ -6,6 +6,9 @@ body{
 }
 
 .offerTable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 20px auto;
     padding: 10px;
     background-color: #99bdd8;

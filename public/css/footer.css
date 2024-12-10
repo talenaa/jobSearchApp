@@ -1,7 +1,4 @@
 footer{
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: space-around;
     align-items: center;
     margin: 0px;
     padding: 2px;
@@ -11,6 +8,7 @@ footer{
     font-size: 17px;
     color: #99bdd8;
 }
+
 footer img{
     width: 37px;
     margin-top: 15px;

@@ -30,7 +30,7 @@
                         @endif
                     </td>
                     <td>{{$offer->created_at}}</td>
-                    <td><a href="{{route('show', $offer->id)}}">👁️🫦👁️</a></td>
+                    <td><a href="{{route('show', $offer->id)}}">👁️</a></td>
                 </tr>
                 @endforeach
             </tbody>

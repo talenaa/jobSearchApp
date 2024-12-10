@@ -8,3 +8,8 @@ body{
     flex-flow: column;
     margin: 0px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
