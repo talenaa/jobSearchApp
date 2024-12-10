@@ -2,11 +2,14 @@
 @import url(header.css);
 @import url(show.css);
 @import url(index.css);
+@import url(backButton.css);
+@import url(form.css);
 
 body{
     display: flex;
     flex-flow: column;
     margin: 0px;
+    padding: 0px;
 }
 
 main{
