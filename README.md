@@ -150,6 +150,32 @@ http://127.0.0.1:8000/api/offers/id
 
 <p align="center">Endpoints (Feedback table)</p>
 
+GET all id
+```
+http://127.0.0.1:8000/api/offers/offerid/news
+```
+
+GET an especific id
+```
+http://127.0.0.1:8000/api/offers/offerid/news/newsid
+```
+
+DELETE by id
+```
+http://127.0.0.1:8000/api/offers/offerid/news/newsid
+```
+
+PUT update an existing id
+```
+http://127.0.0.1:8000/api/offers/offerid/news/newsid
+```
+
+POST create new id
+```
+http://127.0.0.1:8000/api/offers/offerid/news
+```
+***
+
 ## :white_check_mark: Tests
 
 > [!IMPORTANT]
