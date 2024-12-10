@@ -1,11 +1,12 @@
-body{
+.titleShow{
     display: flex;
-    flex-flow: column;
-    padding: 0px;
-    margin: 0px;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 22px;
+    color: #182634;
 }
 
-.offerTable{
+.offerTime{
     margin: 20px auto;
     padding: 10px;
     background-color: #99bdd8;
