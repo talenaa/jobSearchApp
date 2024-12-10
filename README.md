@@ -47,6 +47,14 @@ Take a look at how my project turned out.
 
 ***
 
+<P align="center">Progress Page</P>
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/379a0fb1-7122-4fa7-8318-8375bf85a6a7" alt="progress page screenshot" width="800"/>
+</p>
+
+***
+
 ## Project Diagrams (BBDD)
 
 ![image](https://github.com/user-attachments/assets/b4eef6c7-3c8e-4cf5-8f21-576eb7b26f49)
