@@ -37,9 +37,13 @@ In the two forms we have the option to create and update.
 ## :eye_speech_bubble: Project overview
 
 Take a look at how my project turned out.
-
 ***
-(screenshot here)
+
+<P align="center">Home Page</P>
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/c90d45e1-41cb-4dc1-a365-523dfa10ba4a" alt="home page screenshot" width="800"/>
+</p>
 
 ***
 
