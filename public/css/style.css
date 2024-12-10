@@ -2,3 +2,9 @@
 @import url(header.css);
 @import url(show.css);
 @import url(index.css);
+
+body{
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+}
