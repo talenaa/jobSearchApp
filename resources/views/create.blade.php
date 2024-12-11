@@ -30,6 +30,14 @@
                 <input type="text" name="workspace" id="workspace" class="form-input" required>
             </div>
 
+            <div class="form-group">
+                <label for="status" class="form-label">Status</label>
+                <select name="status" id="status" class="form-select" required>
+                    <option value="1">In progress</option>
+                    <option value="0">Finished</option>
+                </select>
+            </div>
+
             <div class="form-actions">
                 <button type="submit" class="form-button">Add Offer</button>
             </div>
