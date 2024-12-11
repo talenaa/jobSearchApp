@@ -42,15 +42,21 @@ Take a look at how my project turned out.
 <P align="center">Home Page</P>
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/c90d45e1-41cb-4dc1-a365-523dfa10ba4a" alt="home page screenshot" width="800"/>
+ <img src="https://github.com/user-attachments/assets/bea69588-42f5-4bc8-abd6-87de27cec5a1" alt="home page screenshot" width="800"/>
 </p>
 
 ***
 
-<P align="center">Progress Page</P>
+<P align="center">Create an offer page</P>
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/379a0fb1-7122-4fa7-8318-8375bf85a6a7" alt="progress page screenshot" width="800"/>
+ <img src="https://github.com/user-attachments/assets/cd070e15-5988-4bbc-81be-7f8e22e3842c" alt="creaete an offer page screenshot" width="800"/>
+</p>
+
+<P align="center">Edit an offer page</P>
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/87a7912e-cf75-49dc-b168-399775464bfc" alt="edit an offer page screenshot" width="800"/>
 </p>
 
 ***
@@ -199,10 +205,10 @@ php artisan test
 <p align="center">This is what you should see after putting the command.</p>
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/08843ba7-899b-4c39-8799-03c7a35ab905" alt="tests screenshot" width="800"/>
+ <img src="https://github.com/user-attachments/assets/9afbe4b4-4585-41a9-bc7c-991bd7b15c20" alt="tests screenshot" width="800"/>
 </p>
 
-<p align="center">These are all my tests passed. I tested the web, the API CRUD, the feedback CRUD, and the FeedbackModel.</p>
+<p align="center">These are all my tests passed. I tested the web, the API CRUD, the feedback CRUD, the FeedbackModel, also the create and edit view.</p>
 
 ***
 
@@ -219,7 +225,7 @@ php artisan test --coverage-html=coverage-report
 
 This will add a folder called "coverage-report", go to the folder, go to the index.html, and then open with live server. After that you should see this page:
 
-![image](https://github.com/user-attachments/assets/6b547ea6-c57a-489c-8557-36a6860115f0)
+![Screenshot 2024-12-11 012135](https://github.com/user-attachments/assets/a1960669-9f1c-4dfb-8766-ca1ec8224384)
 ***
 
 ## Contact and information
