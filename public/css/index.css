@@ -15,23 +15,22 @@ main{
     padding: 10px;
     background-color: #99bdd8;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(76, 127, 213, 0.563);
 }
 
 .indexTable{
-    border-collapse: collapse;
     border-radius: 12px;
     text-align: center;
     font-family: monospace;
     font-size: 17px;
     color: #99bdd8;
     background-color: #253754;
-    border: 3px solid #2a2e3a;
+    border: 3px solid #5c6fa7;
 }
 
 .indexTable th, .indexTable td {
     padding: 15px;
-    border: 1px solid #324889;
+    border: 1px solid #5f98c6;
 }
 
 .indexTable thead th {
