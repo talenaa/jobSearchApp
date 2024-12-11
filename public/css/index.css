@@ -43,7 +43,7 @@ main{
 }
 
 .indexTable tbody tr:hover {
-    background-color: #4484b8;
+    background-color: #78cde3;
     color: #333;
     transition: background-color 0.3s ease;
 }
