@@ -53,6 +53,8 @@ Take a look at how my project turned out.
  <img src="https://github.com/user-attachments/assets/cd070e15-5988-4bbc-81be-7f8e22e3842c" alt="creaete an offer page screenshot" width="800"/>
 </p>
 
+***
+
 <P align="center">Edit an offer page</P>
 
 <p align="center">
