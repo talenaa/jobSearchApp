@@ -9,7 +9,7 @@
             <div class="offerTime">
                 <table class="tableShow">
                         <tr>
-                            <th scope="col">Comments</th>
+                            <th scope="col">Progress</th>
                             <th scope="col">Created</th>
                             <th scope="col">Updated</th>
                         </tr>
