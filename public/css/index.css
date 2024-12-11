@@ -23,14 +23,16 @@ main{
     text-align: center;
     font-family: monospace;
     font-size: 17px;
-    color: #99bdd8;
+    color: #beeef4;
     background-color: #253754;
     border: 3px solid #5c6fa7;
+    border-radius: 10px;
 }
 
 .indexTable th, .indexTable td {
     padding: 15px;
     border: 1px solid #5f98c6;
+    border-radius: 5px;
 }
 
 .indexTable thead th {
