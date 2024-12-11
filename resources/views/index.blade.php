@@ -21,8 +21,8 @@
                                 <th scope="col">Workspace</th>
                                 <th scope="col">Status</th>
                                 <th scope="col">Created at</th>
-                                <th></th>
-                                <th></th>
+                                <th>Progress</th>
+                                <th>Edit/Delete</th>
                             </tr>
                         </thead>
 
@@ -36,7 +36,7 @@
                                 <td>{{ $offer->workspace }}</td>
                                 <td>{{ $offer->status === 1 ? 'Active' : 'Inactive' }}</td>
                                 <td>{{ $offer->created_at->format('d M Y, H:i') }}</td>
-                                <td><a class="crudBtn" href="/show/{{$offer->id}}">👁️</a></td>
+                                <td><a class="crudBtn" href="{{route('show', $offer->id)}}">👁️</a></td>
                                 <td><a class="crudBtn" href="edit/{{$offer->id}}">📝</a><a class="crudBtn" href="?action=delete&id={{$offer->id}}">🗑️</a></td>
                             </tr>
                         @endforeach
