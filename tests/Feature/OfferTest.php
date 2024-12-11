@@ -19,7 +19,7 @@ class OfferTest extends TestCase
                 ->assertViewIs('index');
     }
 
-    public function test_CheckIfshowIsWorking()
+    public function test_CheckIfShowIsWorking()
     {
         Offer::factory(1)->create();
         
@@ -28,6 +28,15 @@ class OfferTest extends TestCase
         $response->assertStatus(200);
         
     }
+
+    public function test_CheckIfCreatePageIsAccessible()
+    {
+        $response = $this->get(route('create'));
+
+        $response->assertStatus(200);
+        $response->assertViewIs('create');
+    }
+
 
     public function test_storeMethodSavesObjectCorrectly()
     {
@@ -42,22 +51,6 @@ class OfferTest extends TestCase
         $response = $this->get(route('home'));
         $response->assertStatus(200);
         $this->assertDatabaseCount('offers', 1);
-    }
-
-    public function test_checkIfShowViewWorksCorrectly()
-    {
-        $response = $this->post(route('store'), [
-            'title' => 'New Offer',
-            'enterprise' => 'Hello enterprise',
-            'description' => 'Hello description',
-            'workspace' => 'Hello workspace',
-            'status' => true
-        ]);
-
-        $response = $this->get('/show/1');
-
-        $response->assertStatus(200)
-            ->assertViewIs('show');
     }
 
     public function test_checkIfEditFormViewWorksCorrectly()

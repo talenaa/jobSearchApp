@@ -2,14 +2,13 @@
 @section('content')
 
     <div class="backBtnContainer">
-        <a href="{{ route('home') }}" class="backBtn">⬅️</a>
+        <a href="{{ route('home') }}" class="backBtn">Return Home</a>
     </div>
 
     <div class="tableOffer">
-        <h2 class="form-title">Add New Offer</h2>
         <form action="{{ route('store') }}" method="POST" class="form-container">
 
-           @csrf
+        @csrf
 
             <div class="form-group">
                 <label for="title" class="form-label">Title</label>

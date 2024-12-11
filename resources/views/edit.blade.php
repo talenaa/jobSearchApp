@@ -2,11 +2,10 @@
 @section('content')
 
     <div class="backBtnContainer">
-        <a href="{{ route('home') }}" class="backBtn">⬅️</a>
+        <a href="{{ route('home') }}" class="backBtn">Return Home</a>
     </div>
 
     <div class="tableOffer">
-        <h2 class="form-title">Edit Offer</h2>
         <form action="{{ route('update', $offer->id) }}" method="POST" class="form-container">
 
         @csrf
