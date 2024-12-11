@@ -1,0 +1,45 @@
+.progressTitle{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.offerTime {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: #99bdd8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tableShow {
+    border-collapse: collapse;
+    border-radius: 12px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    color: #99bdd8;
+    background-color: #253754;
+    border: 3px solid #2a2e3a;
+}
+
+.tableShow th, .tableShow td {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #324889;
+}
+
+.tableShow thead th {
+    background: #182634;
+    color: #99bdd8;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.tableShow tbody tr:hover {
+    background-color: #4484b8;
+    color: #333;
+    transition: background-color 0.3s ease;
+}

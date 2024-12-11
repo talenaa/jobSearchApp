@@ -1,3 +1,6 @@
 <header>
-    <h1>Job Search App</h1>
+    <img src="{{ asset('css/img/jobSearchLogo.png') }}" alt="logo">
+        <div class="title">
+           <h1>Job Search</h1>
+        </div>
 </header>

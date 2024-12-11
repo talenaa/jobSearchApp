@@ -1,0 +1,29 @@
+.backBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.backBtn {
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #182634;
+    color: #1f6295;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.backBtn:hover {
+    background-color: #99bdd8;
+    border-color: #182634;
+}
+
+
+.crudBtn{
+    text-decoration: none;
+}
